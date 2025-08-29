@@ -46,7 +46,7 @@ public class Main {
                     break;
 
                 } else {
-                    System.out.println("Opción inválida, intente de nuevo. \n ");
+                    System.out.println("Opcion invalida, intente de nuevo. \n ");
                 }
 
                 System.out.println();

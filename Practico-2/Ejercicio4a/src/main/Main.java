@@ -43,6 +43,7 @@ public class Main {
 			exception.printStackTrace();
 		}  finally {
             try {
+                if (resultado != null) resultado.close();
                 if (statement != null) statement.close();
                 if (connection != null) connection.close();
             } catch (SQLException ex) {
